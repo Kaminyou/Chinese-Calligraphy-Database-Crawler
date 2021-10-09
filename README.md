@@ -2,6 +2,9 @@
 A crawler for Chinese calligraphy database (with a web server)
 <img src="./screenshot.png" width="300px">
 
+## Deployed web server
+https://kaminyou.com/Chinese-Calligraphy-Database-Crawler/
+
 ## Instruction
 1. Please execute `crawl.py` or `quick_crawl.py` to crawl the mapping relationship of the word and idx.
 ```
