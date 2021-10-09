@@ -2,7 +2,7 @@ import requests
 
 if __name__ == "__main__":
     with open("mapping.csv", "w") as f:
-        for i in range(100000):
+        for i in range(80000, 100000):
             r = requests.get(f"https://www.cns11643.gov.tw/wordWrite.jsp?ID={i}")
             if "<caption>法帖查詢：" in r.text:
                 idx = r.text.find("<caption>法帖查詢：")

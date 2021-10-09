@@ -1,3 +1,4 @@
+import argparse
 import time
 import requests
 import multiprocessing as mp
@@ -15,10 +16,14 @@ def crawling(word_id):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--processes', type=int, default=100, help="number of processes")
+    args = parser.parse_args()
+
     for i in range(20):
         print(f"---- start crawling {i} ----")
 
-        pool = mp.Pool(processes = 100)
+        pool = mp.Pool(processes = args.processes)
         results = pool.map(crawling, range(80000 + i * 1000, 80000 + (i + 1) * 1000))
 
         with open("mapping.csv", "a") as f:
