@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Chinese-Calligraphy-Database-Crawler/static/css/main.7046b148.chunk.css",
+    "main.js": "/Chinese-Calligraphy-Database-Crawler/static/js/main.a81607e2.chunk.js",
+    "main.js.map": "/Chinese-Calligraphy-Database-Crawler/static/js/main.a81607e2.chunk.js.map",
+    "runtime-main.js": "/Chinese-Calligraphy-Database-Crawler/static/js/runtime-main.40690c64.js",
+    "runtime-main.js.map": "/Chinese-Calligraphy-Database-Crawler/static/js/runtime-main.40690c64.js.map",
+    "static/js/2.ea2a05bf.chunk.js": "/Chinese-Calligraphy-Database-Crawler/static/js/2.ea2a05bf.chunk.js",
+    "static/js/2.ea2a05bf.chunk.js.map": "/Chinese-Calligraphy-Database-Crawler/static/js/2.ea2a05bf.chunk.js.map",
+    "static/js/3.f122ea7a.chunk.js": "/Chinese-Calligraphy-Database-Crawler/static/js/3.f122ea7a.chunk.js",
+    "static/js/3.f122ea7a.chunk.js.map": "/Chinese-Calligraphy-Database-Crawler/static/js/3.f122ea7a.chunk.js.map",
+    "index.html": "/Chinese-Calligraphy-Database-Crawler/index.html",
+    "static/css/main.7046b148.chunk.css.map": "/Chinese-Calligraphy-Database-Crawler/static/css/main.7046b148.chunk.css.map",
+    "static/js/2.ea2a05bf.chunk.js.LICENSE.txt": "/Chinese-Calligraphy-Database-Crawler/static/js/2.ea2a05bf.chunk.js.LICENSE.txt",
+    "static/media/word.bd122a4b.png": "/Chinese-Calligraphy-Database-Crawler/static/media/word.bd122a4b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40690c64.js",
+    "static/js/2.ea2a05bf.chunk.js",
+    "static/css/main.7046b148.chunk.css",
+    "static/js/main.a81607e2.chunk.js"
+  ]
+}
