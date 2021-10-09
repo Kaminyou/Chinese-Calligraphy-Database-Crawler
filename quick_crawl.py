@@ -1,3 +1,4 @@
+import time
 import requests
 import multiprocessing as mp
 
@@ -14,14 +15,15 @@ def crawling(word_id):
 
 
 if __name__ == "__main__":
+    for i in range(20):
+        print(f"---- start crawling {i} ----")
 
-    print("---- start crawling ----")
+        pool = mp.Pool(processes = 100)
+        results = pool.map(crawling, range(80000 + i * 1000, 80000 + (i + 1) * 1000))
 
-    pool = mp.Pool(processes = 20)
-    results = pool.map(crawling, range(100000))
+        with open("mapping.csv", "a") as f:
+            for word_id, word in results:
+                f.write(f"{word_id},{word}\n")
 
-    with open("mapping.csv", "w") as f:
-        for word_id, word in results:
-            f.write(f"{word_id},{word}\n")
-
-    print("---- end crawling ----")
+        print("---- end crawling ----")
+        time.sleep(20)
