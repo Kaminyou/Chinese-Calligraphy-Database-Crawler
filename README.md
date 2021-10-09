@@ -1,5 +1,5 @@
 # Chinese-Calligraphy-Database-Crawler
-A crawler for Chinese calligraphy database (with a web server)
+A crawler for Chinese calligraphy database (with a web server)<br>
 <img src="./screenshot.png" width="300px">
 
 ## Deployed web server
