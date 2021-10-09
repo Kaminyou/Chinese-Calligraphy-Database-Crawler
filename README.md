@@ -1,5 +1,6 @@
 # Chinese-Calligraphy-Database-Crawler
-A crawler for Chinese calligraphy database
+A crawler for Chinese calligraphy database (with a web server)
+<img src="./screenshot.png" width="300px">
 
 ## Instruction
 1. Please execute `crawl.py` or `quick_crawl.py` to crawl the mapping relationship of the word and idx.
